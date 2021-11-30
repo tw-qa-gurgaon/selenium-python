@@ -30,7 +30,7 @@ python3 -m venv venv
 ```
 3.Activate the venv
 ```
-./venv/bin/activate
+source ./venv/bin/activate
 ```
           ** If you face permission error with the above command try
           ```
