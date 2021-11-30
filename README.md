@@ -32,10 +32,19 @@ python3 -m venv venv
 ```
 ./venv/bin/activate
 ```
+          ** If you face permission error with the above command try
+          ```
+          chmod -R 777 ../selenium-python
+          ./venv/bin/activate
+          ```
 4Install the dependencies that are mentioned in the script
 ```
 pip install -r requirements.txt
 ```
+     ** In case the above command does not work try
+     ```
+     pip3 install -r requirements.txt
+     ```
 * If pip does not work go to the requirements.txt file and select option install dependencies in IDE
 
 5.To run the tests using cmd use: 
