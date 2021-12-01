@@ -1,8 +1,13 @@
-# selenium_python
-This repository is dedicated for writing the automation test cases in python using selenium
+# Introduction
+This a bare minimum framework setup of python for QA Recruitment Workshop
 
 ## Test Covered
 * UI
+
+
+## Pre requisites: <br>
+* Python 3 <br>
+* IDE (Any)
 
 ## Technology used
 * Python 3.8 (and above)
@@ -10,10 +15,6 @@ This repository is dedicated for writing the automation test cases in python usi
 * Pytest 6.2.5
 * Allure-pytest 2.9.45
 * WebDriver-Manager
-
-## Pre requisites: <br>
-* Python 3 <br>
-* IDE (Any)
 
 -------------------------------------------------------------------------
 ## Steps to run:
@@ -32,19 +33,19 @@ python3 -m venv venv
 ```
 source ./venv/bin/activate
 ```
-          ** If you face permission error with the above command try
-          ```
-          chmod -R 777 ../selenium-python
-          ./venv/bin/activate
-          ```
-4Install the dependencies that are mentioned in the script
+* If you face permission error with the above command try
+```
+chmod -R 777 ../selenium-python
+./venv/bin/activate
+```
+4.Install the dependencies that are mentioned in the script
 ```
 pip install -r requirements.txt
 ```
-     ** In case the above command does not work try
-     ```
-     pip3 install -r requirements.txt
-     ```
+* In case the above command does not work try
+```
+pip3 install -r requirements.txt
+```
 * If pip does not work go to the requirements.txt file and select option install dependencies in IDE
 
 5.To run the tests using cmd use: 
